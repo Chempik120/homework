@@ -1,5 +1,18 @@
-.name-company{/* WebStudio */
 
+:root{ --accent-color: #2196F3;
+--hero-text:#757575 ;
+--back-color:#FFFFFF;
+--team-section-color:#F5F4FA;
+--footer-color:#2F303A;
+--after-hero-text:#212121;
+--element-color:#757575;
+
+
+
+}
+
+
+.name-company{/* WebStudio */
     position: absolute;
     width: 145px;
     height: 31px;
@@ -14,7 +27,7 @@
     /* identical to box height */
     letter-spacing: 0.03em;
     
-    color: #2196F3;
+    color: #ffe100;
     
     }
     .nav-ul{/* Студія */
@@ -32,7 +45,7 @@
         line-height: 16px;
         letter-spacing: 0.02em;
         
-        color: #2196F3;
+        color: #d7f321;
         
         }
         .email{/* info@devstudio.com */
@@ -50,7 +63,7 @@
             line-height: 16px;
             letter-spacing: 0.02em;
             
-            color: #2196F3;
+            color: #c9f321;
             
             }
             .number{/* +38 096 111 11 11 */
@@ -71,3 +84,25 @@
                 color: #757575;
                 
                 }
+                #section{width: 200px; color: rgb(220, 223, 16);}
+                ul,ol{list-style: none;}
+                
+                button[type="button"]{width: 200px;}
+                .name-hero{
+                    
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 44px;
+                    line-height: 60px;
+                    
+                    
+                    color: var(--hero-text) ;
+                    background-color:var(--accent-color);
+                    }
+                p{width: 300px; color: rgb(0, 0, 0);}
+                .main{}
+                .p1{background-color: blue;}
+                .p2{background-color: coral;}
+                .p3{background-color: #2F1472;}
+              
