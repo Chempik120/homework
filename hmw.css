@@ -13,25 +13,39 @@
 
 
 .name-company{/* WebStudio */
-    position: absolute;
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 24px;
-    
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    /* identical to box height */
-    letter-spacing: 0.03em;
-    
-    color: #ffe100;
+/* WebStudio */
+text-decoration: none;
+position: absolute;
+width: 145px;
+height: 31px;
+left: 215px;
+top: 24px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+letter-spacing: 0.03em;
+
+color: #2196F3;
+
+
     
     }
-    .nav-ul{/* Студія */
+    .nav-ul{/* Menu Nav */
 
+        position: absolute;
+        width: 281px;
+        height: 16px;
+        left: 453px;
+        top: 32px;
+        
+        
+        
+        /* Студія */
+        
         position: absolute;
         width: 45px;
         height: 16px;
@@ -45,11 +59,110 @@
         line-height: 16px;
         letter-spacing: 0.02em;
         
-        color: #d7f321;
+        color: #212121;
+        
+        
+        
+        /* Активне посилання  */
+        
+        position: absolute;
+        width: 45px;
+        height: 16px;
+        left: 453px;
+        top: 32px;
+        
+        
+        
+        /* Студія */
+        
+        position: absolute;
+        width: 45px;
+        height: 16px;
+        left: 453px;
+        top: 32px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        
+        color: #2196F3;
+        
+        
+        
+        /* Портфоліо */
+        
+        position: absolute;
+        width: 72px;
+        height: 16px;
+        left: 548px;
+        top: 32px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        
+        color: #212121;
+        
+        
+        
+        /* Портфоліо */
+        
+        position: absolute;
+        width: 72px;
+        height: 16px;
+        left: 548px;
+        top: 32px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        
+        color: #212121;
+        
+        
+        
+        /* Контакти */
+        
+        position: absolute;
+        width: 64px;
+        height: 16px;
+        left: 670px;
+        top: 32px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        
+        color: #212121;
+        
+        
+
         
         }
-        .email{/* info@devstudio.com */
+        .email{/* E-mail */
 
+            position: absolute;
+            width: 135px;
+            height: 16px;
+            left: 1078px;
+            top: 32px;
+            
+            
+            
+            /* info@devstudio.com */
+            
             position: absolute;
             width: 135px;
             height: 16px;
@@ -63,11 +176,52 @@
             line-height: 16px;
             letter-spacing: 0.02em;
             
-            color: #c9f321;
+            color: #757575;
+            
+            
+            
+            /* Hover */
+            
+            position: absolute;
+            width: 135px;
+            height: 16px;
+            left: 1078px;
+            top: 32px;
+            
+            
+            
+            /* info@devstudio.com */
+            
+            position: absolute;
+            width: 135px;
+            height: 16px;
+            left: 1078px;
+            top: 32px;
+            
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.02em;
+            
+            color: #2196F3;
+            
+            
             
             }
-            .number{/* +38 096 111 11 11 */
+            .number{/* Tel */
 
+                position: absolute;
+                width: 122px;
+                height: 16px;
+                left: 1263px;
+                top: 32px;
+                
+                
+                
+                /* +38 096 111 11 11 */
+                
                 position: absolute;
                 width: 122px;
                 height: 16px;
@@ -83,26 +237,20 @@
                 
                 color: #757575;
                 
+                
                 }
                 #section{width: 200px; color: rgb(220, 223, 16);}
                 ul,ol{list-style: none;}
                 
                 button[type="button"]{width: 200px;}
                 .name-hero{
-                    
-                    font-family: 'Roboto';
-                    font-style: normal;
-                    font-weight: 900;
-                    font-size: 44px;
-                    line-height: 60px;
-                    
-                    
-                    color: var(--hero-text) ;
-                    background-color:var(--accent-color);
+                 
                     }
                 p{width: 300px; color: rgb(0, 0, 0);}
-                .main{}
+    
                 .p1{background-color: blue;}
                 .p2{background-color: coral;}
                 .p3{background-color: #2F1472;}
+                .number:hover{color: #2196F3;}
+                .nav-ul:hover{color: #2196F3;}
               
