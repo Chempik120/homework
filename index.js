@@ -26,7 +26,7 @@ console.log(myNull);
 
 const yourName = prompt("Введіть ваше ім'я");
 
-alert(`Привіт,${yourName}!`);
+alert(`Привіт,` + yourName);
 
 const conf = confirm("Підтвердіть дію");
 
