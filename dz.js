@@ -34,4 +34,4 @@ console.log(Math.sqrt(15));
 const wholeNumber = 27;
 const stringNumber = "29";
 console.log(parseInt(stringNumber));
-console.log(toString(wholeNumber));
+console.log(wholeNumber.toString());
