@@ -20,3 +20,6 @@ const userName = "Андрій";
 const payment = 1781;
 
 alert("Дякуемо," + userName + "!" + "До сплати " + payment + " гривень");
+
+
+
