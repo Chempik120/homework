@@ -1,8 +1,8 @@
-const button = document.querySelector("#textField");
-const input = document.querySelector("#button");
+const button = document.querySelector(".textField");
+const input = document.querySelector(".button");
 
-const inputValue = textField.value;
-button.textContent = inputValue;
+const inputValue = button.value;
+input.textContent = inputValue;
 
 const picture = document.querySelector(".image");
 picture.src = "https://media.sproutsocial.com/uploads/2022/06/profile-picture.jpeg";
