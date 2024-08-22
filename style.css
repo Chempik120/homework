@@ -47,3 +47,10 @@
     width: 40px;
     height: 30px;
 }
+
+.inputs{
+    display: grid;
+    grid-column: auto;
+    width: 200px;
+    margin-bottom: 50px;
+}
