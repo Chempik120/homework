@@ -98,7 +98,7 @@ function checkNumber(){
         case "3" || "4" || "5":
             alert("Весна");
             break;
-            case "6" || "7" || "8":
+            case numberOf.value >= "6" && numberOf.value <= "8":
                 alert("Літо");
                 break;
                 case "9" || "10" || "11":
@@ -108,6 +108,8 @@ function checkNumber(){
                         alert("Невідомий місяць");
     };
 };
+
+
 
 checkMonths.addEventListener("click", checkNumber);
 
@@ -180,3 +182,5 @@ function onOperation(){
 };
 
 doOp.addEventListener("click", onOperation);
+
+
