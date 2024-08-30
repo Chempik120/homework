@@ -64,11 +64,10 @@ for ( let b = 0; b < n; b++) {
 
 let l = 0;
 
-while (l <= 20){
-    l++
-if(l & 3 === 0){
+while (l < 20){
+l++
+if(l % 3 != 0){
   continue;
 }
-console.log(l);
-    
-}
+console.log(l);  
+};
