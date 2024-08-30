@@ -66,7 +66,7 @@ let l = 0;
 
 while (l < 20){
 l++
-if(l % 3 != 0){
+if(l % 3 === 0){
   continue;
 }
 console.log(l);  
