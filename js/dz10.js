@@ -25,3 +25,4 @@ console.log(cards);
 
 cards.splice(4,1, "Карточка-9");
 console.log(cards);
+
