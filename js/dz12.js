@@ -13,11 +13,11 @@ const bankAccount = {
     balance : 370,
     deposit: function(money){
      bankAccount.balance = Number.parseFloat(bankAccount.balance) + Number.parseFloat(plusMoney.value) + "$";
-     console.log('Your balance', + this.balance);
+     console.log('Your balance', bankAccount.balance);
     }
 };
 
-plusButton.addEventListener("click",bankAccount.deposit);
+plusButton.addEventListener("click" , bankAccount.deposit);
 
 
 
