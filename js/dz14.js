@@ -144,3 +144,37 @@ console.log(getNamesSortedByFriendsCount(users));
 const getSortedUniqueSkills = users => [...new Set(users.flatMap(user => user.skills))].sort();
 
 console.log(getSortedUniqueSkills(users));
+
+const getNames = userList => userList.map(person => person.name);
+console.log(getNames(users));
+
+const getUsersByEyeColor = (userList, eyeColor) => userList.filter(person => person.eyeColor === eyeColor);
+console.log(getUsersByEyeColor(users, 'blue'));
+
+const getNamesByGender = (userList, userGender) => userList.filter(person => person.gender === userGender).map(person => person.name);
+console.log(getNamesByGender(users, 'male'));
+
+const getinactiveUsers = userList => userList.filter(person => !person.isActive);
+console.log(getInactiveUsers(users));
+
+const findUserByEmail = (userList, email) => userList.find(person => person.email === email);
+console.log(findUserByEmail(users, 'shereeanthony@kog.com'));
+console.log(findUserByEmail(users, 'elmahead@omatom.com'));
+
+const getUsersInAgeRange = (userList, minAge, maxAge) => userList.filter(person => person.age >= minAge && person.age <= maxAge);
+console.log(getUsersInAgeRange(users, 20, 30));
+console.log(getUsersInAgeRange(users, 30, 40));
+
+const sumBalances = userList => userList.reduce((totalBalance, person) => totalBalance + person.balance, 0);
+console.log(sumBalances(users));
+
+const getNamesByFriend = (userList, friendName) => userList.filter(person => person.friends.includes(friendName)).map(person => person.name);
+console.log(getNamesByFriend(users, 'Briana Decker'));
+console.log(getNamesByFriend(users, 'Goldie Gentry'));
+
+const getNamesSortedByFriendCount = userList => userList.slice().sort((a, b) => a.friends.length - b.friends.length).map(person => person.name);
+console.log(getNamesSortedByFriendCount(users));
+
+const getUniqueSkills = userList => [...new Set(userList.flatMap(person => person.skills))].sort();
+console.log(getUniqueSkills(users));
+
