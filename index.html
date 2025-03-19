@@ -175,8 +175,99 @@
     <img class="modal__image" src="" alt="">
   </div>
 
+<input type="text" id="textInput" placeholder="Введіть текст">
+<button id="btn">Натисніть</button>
+
+<h1 id="title">Заголовок</h1>
+<img id="image" src="./images/pexels-photo-2377965.webp" alt="Старе зображення" width="200">
+
+<a id="link" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScSepoB_rO3Yc1a5GNOsoaX4UC_UrbESdvJQ&s">
+    <img id="linkImage" src="./images/profile-picture.jpeg" width="200">
+</a>
+
+<ul id="list">
+    <li>Перший елемент</li>
+    <li>Другий елемент</li>
+    <li>Третій елемент</li>
+</ul>
 
 
-<script src="./js/dz16,js" type="module"></script>
+<ul id="categories">
+  <li>Кіт</li>
+  <li>Хом'як</li>
+  <li>Кінь</li>
+  <li>Папуга</li>
+ </ul>
+ <ul id="categories">
+  <li>Хліб</li>
+  <li>Петрушка</li>
+  <li>Сир</li>
+ </ul>
+ <ul id="categories">
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+  <li>React</li>
+  <li>Node</li>
+ </ul>
+
+
+  <form>
+    <p>Choose a color:</p>
+    <label>
+      <input type="radio" name="color" value="red" checked />
+      Red
+    </label>
+    <label>
+      <input type="radio" name="color" value="white" />
+      White
+    </label>
+    <label>
+      <input type="radio" name="color" value="green" />
+      Green
+    </label>
+  </form>
+
+ <input type="text" placeholder="Ваше ім'я?" id="name-input" />
+ <h1>Привіт, <span id="name-output">незнайомець</span>!</h1>
+
+ <input
+   type="text"
+   id="validation-input"
+   data-length="6"
+   placeholder="Введи 6 символів"
+ />
+
+ <input id="font-size-control" type="range" min="10" max="40" value="16" />
+ <br />
+ <span id="text">Абракадабра!</span>
+
+
+ <ul class="gallery">
+  <li>
+    <img class="image" src="https://images.pexels.com/photos/4617294/pexels-photo-4617294.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="зображення">
+  </li>
+  <li>
+    <img class="image" src="https://images.pexels.com/photos/11815778/pexels-photo-11815778.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="зображення">
+  </li>
+  <li>
+    <img class="image" src="https://images.pexels.com/photos/6195166/pexels-photo-6195166.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="зображення">
+  </li>
+  <li>
+    <img class="image" src="https://images.pexels.com/photos/6957926/pexels-photo-6957926.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="зображення">
+  </li>
+  <li>
+    <img class="image" src="https://images.pexels.com/photos/15520825/pexels-photo-15520825.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="зображення">
+  </li>
+</ul>
+
+<div id="controls">
+  <input type="number" min="0" max="100" step="1" />
+  <button type="button" data-action="render">Створити</button>
+  <button type="button" data-action="destroy">Очистити</button>
+</div>
+
+<div id="boxes"></div>
+<script src="./js/dz21.js" type="module"></script>
 </body>
 </html>
